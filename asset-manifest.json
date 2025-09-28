@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kaleshreyas45/hr-consultancy/static/css/main.77beeca0.css",
+    "main.js": "/kaleshreyas45/hr-consultancy/static/js/main.9783a1f9.js",
+    "static/js/453.a5732eb7.chunk.js": "/kaleshreyas45/hr-consultancy/static/js/453.a5732eb7.chunk.js",
+    "static/media/HR-Outsourcing-Consultation-1.png": "/kaleshreyas45/hr-consultancy/static/media/HR-Outsourcing-Consultation-1.1ea116eac7304033f02f.png",
+    "static/media/mission-vision-bg.png": "/kaleshreyas45/hr-consultancy/static/media/mission-vision-bg.a54d0181ecb78c0bf8b9.png",
+    "static/media/whyus.jpeg": "/kaleshreyas45/hr-consultancy/static/media/whyus.279940233575dd705026.jpeg",
+    "static/media/about-us.jpg": "/kaleshreyas45/hr-consultancy/static/media/about-us.862c54806aa630bf4985.jpg",
+    "index.html": "/kaleshreyas45/hr-consultancy/index.html",
+    "main.77beeca0.css.map": "/kaleshreyas45/hr-consultancy/static/css/main.77beeca0.css.map",
+    "main.9783a1f9.js.map": "/kaleshreyas45/hr-consultancy/static/js/main.9783a1f9.js.map",
+    "453.a5732eb7.chunk.js.map": "/kaleshreyas45/hr-consultancy/static/js/453.a5732eb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77beeca0.css",
+    "static/js/main.9783a1f9.js"
+  ]
+}
