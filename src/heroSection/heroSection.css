@@ -1,0 +1,166 @@
+.hero-section {
+    width: 100%;
+    height: 600px;
+    background: url('../assets/HR-Outsourcing-Consultation-1.png') no-repeat center center/cover;
+    position: relative;
+}
+.hero-section::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--hero-overlay-color);
+}
+.navigation{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    background-color: var(--navigation-bg-color);
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.logo{
+    font-family: var(--secondary-font);
+    letter-spacing: 5px;
+    color: var(--primary-color);
+    padding: 2rem;
+}
+.links ul {
+    display: flex;
+}
+.links ul a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: black;
+
+}
+.heading {
+    padding: 2rem;
+    margin-top: 4rem;
+    position: relative;
+    z-index: 1;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: var(--heading-font-size);
+    background: linear-gradient( to right, #f2f2f299 50%, rgba(255, 255, 255, 0) 100% );
+
+}
+
+.heading p {
+    font-size: var(--para-font-size);
+}
+.learn-more{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 42px;
+    width: 200px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    font-family: var(--primary-font);
+    margin-top: 1rem;  
+}
+.hamburger{
+    display: none;
+}
+.hamburger div {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 0.2rem;
+    background-color: var(--primary-color);
+}
+.mobile-navigation{
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    z-index: 100;
+    animation-name: 'mobileNav';
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--primary-font);
+    font-size: 20px;
+}
+.close-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 10px;
+}
+.close {
+    animation-name: 'closeAnimation';
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.close-icon img{
+    width: 30px;
+    height: 30px;
+}
+.mobile-links{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-links a {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+@keyframes mobileNav{
+    0%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes closeAnimation{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+}
+@media(max-width: 576px) {
+    .heading {
+        font-size: var(--mobile-heading-size);
+    }
+    
+}
+@media(max-width: 768px) {
+    .links {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        margin-right: 2rem;
+    }
+} 
+@media(max-width: 500px) {
+    .heading {
+        font-size: var(--extra-small);
+    }
+    .logo{
+        font-size: var(--mobile-logo-size);
+    }
+}
+@media(max-width: 400px) {
+    .hero-section {
+        height: 450px;
+    }
+    .heading {
+        font-size: 15px;
+    }
+}

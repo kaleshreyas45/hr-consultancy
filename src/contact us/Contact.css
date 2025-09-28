@@ -1,0 +1,36 @@
+.contact {
+    background-color: black;
+    padding: 2rem;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+.contact-heading {
+    width: 100%;
+    text-align: center;
+} 
+.contact h1{
+    font-size: var(--section-heading-font-size);
+}
+.contact-content{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.img-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.img-text img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+@media(max-width: 767px) {
+    .contact-content {
+        flex-direction: column;
+    }
+}

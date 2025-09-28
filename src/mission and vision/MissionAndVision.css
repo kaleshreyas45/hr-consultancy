@@ -1,0 +1,66 @@
+.mission-vision{
+    background: url('../assets/mission-vision-bg.png') no-repeat center center/cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.single-box{
+    width: 400px;
+}
+.heading-icon{
+    display: flex;
+    align-items: start;
+}
+.single-box img{
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+.mission-vision h1 {
+    font-size: var(--section-heading-font-size);
+    margin-bottom: 2rem;
+}
+.mission-vision p{
+    font-size: 22px;
+}
+@media(max-width: 992px) {
+    .mission-vision {
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .single-box {
+        width: calc(400px - 2rem);
+    }
+}
+@media(max-width: 864px) {
+    .mission-vision p{
+        font-size: 18px;
+    }
+}
+@media(max-width: 800px) {
+    .mission-vision {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .single-box {
+        margin-bottom: 2rem;
+        width: 80%;
+    }
+}
+@media(max-width: 576px) {
+    .mission-vision h1 {
+        font-size: 32px;
+    }
+    .single-box img {
+        width: 30px;
+        height: 30px;
+    }
+}

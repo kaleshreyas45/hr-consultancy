@@ -1,0 +1,50 @@
+.why-choose-us{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--primary-font);
+    padding: 2rem;
+    
+}
+.why-choose-us-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: url('../assets/whyus.jpeg') no-repeat center center/cover;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.why-choose-us-heading {
+    width: 40%;    
+}
+.why-choose-us-heading h1 {
+    font-size: var(--section-heading-font-size);
+}
+.why-choose-us-content {
+    width: 40%;
+}
+.single-container{
+    padding: 2rem;
+    background-color: #126472;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.single-container p{
+    margin-top: 1rem;
+    
+}
+@media(max-width: 576px) {
+    .why-choose-us {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .why-choose-us-heading{
+        width: 100%;
+    }
+    .why-choose-us-content {
+        width: 100%;
+    }
+}
