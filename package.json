@@ -2,7 +2,7 @@
   "name": "hr-consultancy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/kaleshreyas45/hr-consultancy",
+  "homepage": "https://kaleshreyas45.github.io/hr-consultancy",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
