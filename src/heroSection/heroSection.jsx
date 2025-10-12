@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Close from '../assets/icons8-close-50.png'
+import Logo from '../assets/logo.png';
 import './heroSection.css';
 
 const HeroSection = (props) => {
@@ -61,7 +62,7 @@ const HeroSection = (props) => {
             }
             <div className="navigation">
                 <div className="logo">
-                    <h1>Synergy Verse</h1>
+                    <img src={Logo}></img>
                 </div>
                 <div className='hamburger' onClick={openMobileNavigation}>
                     <div></div>

@@ -1,5 +1,6 @@
 import Call from '../assets/icons8-call-50.png';
 import Email from '../assets/icons8-email-50.png';
+import Whatsapp from '../assets/whatsapp.png';
 import Address from '../assets/icons8-address-50.png';
 import BusinessHours from '../assets/icons8-last-24-hours-50.png';
 
@@ -26,8 +27,6 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }

@@ -29,6 +29,15 @@
     height: 30px;
     margin-right: 1rem;
 }
+.whatsapp-icon{
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+}
+.whatsapp-icon img{
+    width: 60px;
+    height: 60px;
+}
 @media(max-width: 767px) {
     .contact-content {
         flex-direction: column;

@@ -1,7 +1,7 @@
 .testimonials{
     padding: 2rem;
     font-family: var(--primary-font);
-    background-color: #f1f1f1;
+    background-color: var(--testimonials-bg-color);
 }
 .testimonials h1{
     text-align: center; 
@@ -17,7 +17,7 @@
     width: 400px;
     border-radius: 20px;
     padding: 2rem;
-    background-color: white;
+    background-color: var(--secondary-color);
     margin-bottom: 1rem;
 
 }

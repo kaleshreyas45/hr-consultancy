@@ -16,6 +16,9 @@ html, body{
   --secondary-font: "Rubik Glitch", system-ui;
   --hero-overlay-color: #04939357;
   --navigation-bg-color: #ffffffe5;
+  --service-box-bg-color: #3a8486;
+  --testimonials-bg-color: #f1f1f1;
+  --why-choose-us-box-bg-color: #126472;
   --heading-font-size: 32px;
   --section-heading-font-size: 48px;
   --para-font-size: 18px;

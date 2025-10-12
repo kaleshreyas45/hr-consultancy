@@ -1,6 +1,6 @@
 .single-service-container {
     padding: 1rem;
-    background-color: #3a8486;
+    background-color: var(--service-box-bg-color);
     width: 400px;
     margin-bottom: 1rem;
     margin-top: 2rem;
