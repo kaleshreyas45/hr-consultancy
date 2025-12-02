@@ -47,7 +47,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'hrConsultancy'
+          app-name: 'hr-consultancy'
           slot-name: 'Production'
           package: ./node-app
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4BA001D1B3F04145B89BA958ED1D8BCA }}
